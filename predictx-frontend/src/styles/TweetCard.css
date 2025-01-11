@@ -1,0 +1,25 @@
+.tweet-card {
+  transition: transform 0.2s ease-in-out;
+  height: 100%;
+}
+
+.tweet-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-content {
+  margin-bottom: 16px;
+}
+
+.tweet-stats {
+  display: flex;
+  align-items: center;
+  color: #536471;
+}
+
+.views {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+} 
